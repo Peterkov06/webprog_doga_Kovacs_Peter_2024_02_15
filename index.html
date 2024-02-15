@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webshop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row"><input type="number" id="cost"> <input type="button" value="Keresés" onclick="FilterSearch(0)"> <input type="button" value="Legjobb értékelésű" onclick="FilterSearch(1)"></div>
+    <div class="row stats justifyContent"></div>
+    <div class="row categories justifyContent"></div>
+    <div class="listContainer row"></div>
+
+  </div>
+  <script src="apiCall.js"></script>
+</body>
+</html>
